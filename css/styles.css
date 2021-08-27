@@ -8,29 +8,39 @@ h1 {
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  padding: 30px;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #CE1212; /*#CE1212; #CE1212 */
+}
+
+h4 {
+  font-weight: bold;
 }
 
 a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #EF5253;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
+}
+
+a:hover {
+  color: #CE1212;
 }
 
 p {
   line-height: 2;
+  font-size: 1.2rem;
 }
 
 span {
-  text-decoration: underline;
+  color: #CE1212;
 }
 
 hr {
@@ -38,82 +48,130 @@ hr {
   border-width: 5px;
   border-color: gray;
   width: 5%;
-  margin: 100px auto;
-  /* background-color: transparent; */
+  margin: 50px auto;
+  background-color: transparent;
 }
 
 body {
   color: #40514e;
-  margin: 0px;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "Raleway";
 }
 
 footer {
   background-color: #66BFBF;
 }
 
+/* title */
+
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #f4d474; /*f4d474; EEEBDD*/
   position: relative;
-  padding-top: 100px;
+  padding: 7% 15%;
 }
 
-.middle-container {
-  margin: 100px 0;
-  position: relative;
+.title-name {
+  font-size: 5.625em;
+  font-weight: 600;
+  font-family: 'Sacramento', sans-serif;
+  color: #000;
+  line-height: 2;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  position: relative;
-  padding: 50px 0 20px;
+@media (max-width: 800px) {
+  .title-name {
+    line-height: 1.5;
+  }
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.mountain {
-  width: 50%;
+.profile {
+  padding: 5rem;
 }
 
 .img-profile {
   border-radius: 100%;
   width: 25%;
   height: 25%;
+  min-width: 200px;
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
-.img-ed {
-  border-radius: 100%;
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+@media (max-width: 800px) {
+  .intro {
+  width: 60%;
+  margin: auto;
+  }
 }
-.img-prog {
-  border-radius: 100%;
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+
+#subtitle {
+  font-weight: normal;
 }
-.img-run {
-  border-radius: 100%;
-  width: 25%;
+
+.item {
+  font-family: "Raleway";
+  color: #000;
+}
+/* ######################### */
+
+.middle-container {
+  /* margin: 100px 0; */
+  position: relative;
+}
+
+#experience {
+  background-color: #f4d474;
+}
+.exp-section {
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .exp-section {
+    text-align: center;
+  }
+}
+
+.experience {
+  padding: 5% 0;
+}
+
+.skills {
+  margin: 5% 0;
+}
+.exp-row {
+  margin: 2% 0;
+}
+.exp-title {
+  color: #CE1212;
+}
+
+.exp-subtit {
+  font-size: 1rem;
+}
+
+.exp-desc {
+  font-size: 1.2rem;
+  margin: 3% 0;
+}
+
+.borderless {
+  border: none;
+  font-size: 1.2rem;
+}
+
+.skill-eval {
   float: right;
-  margin-left: 30px;
+  color: #EF5253;
+}
+
+.bottom-container {
+  background-color: #f4d474;
+  position: relative;
+  padding: 50px 0 20px;
 }
 
 .skill-row {
@@ -128,11 +186,11 @@ footer {
 
 .btn {
   background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  background-image: -webkit-linear-gradient(top, #EF5253, #CE1212);
+  background-image: -moz-linear-gradient(top, #EF5253, #CE1212);
+  background-image: -ms-linear-gradient(top, #EF5253, #CE1212);
+  background-image: -o-linear-gradient(top, #EF5253, #CE1212);
+  background-image: -webkit-gradient(to bottom, #EF5253, #CE1212);
   border-radius: 10px;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
@@ -147,7 +205,7 @@ footer {
 }
 
 .footer-link {
-  color: #11999E;
+  color: #CE1212;
   font-family: 'Montserrat', sans-serif;
   /* line-height: 2; */
   margin: auto 30px;
@@ -155,14 +213,11 @@ footer {
 }
 
 .footer-link:hover {
-  color: #eaf6f6;
+  color: #000;
 }
 
 .credits {
-  color: #eaf6f6;
+  color: #000;
   font-size: 0.75rem;
 }
 
-#subtitle {
-  font-weight: normal;
-}
