@@ -39,9 +39,9 @@ p {
   font-size: 1.2rem;
 }
 
-span {
+/* span {
   color: #CE1212;
-}
+} */
 
 hr {
   border-style: dotted none none none;
@@ -85,7 +85,11 @@ footer {
 }
 
 .profile {
-  padding: 3rem 0 3rem 0;
+  padding: 5rem;
+}
+
+.emph-name {
+  color: #CE1212;
 }
 
 .img-profile {
@@ -102,13 +106,14 @@ footer {
 
 @media (max-width: 800px) {
   .intro {
-  width: 60%;
+  width: 80%;
   margin: auto;
   }
 }
 
 #subtitle {
   font-weight: normal;
+  padding: 3rem 0 3rem 0;
 }
 
 .item {
@@ -124,6 +129,17 @@ footer {
 
 #experience {
   background-color: #f4d474;
+}
+
+.edu-desc {
+
+}
+
+@media (max-width: 800px) {
+  .edu-desc {
+    width: 80%;
+    margin: auto;
+  }
 }
 .exp-section {
   text-align: left;
